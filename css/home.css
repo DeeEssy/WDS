@@ -1,0 +1,96 @@
+.main {
+  background-image: url("../img/main-screen-bg.png");
+  padding: 60px 0;
+}
+.main .container {
+  text-align: center;
+}
+.main .container .main-desc {
+  color: #616060;
+  font-size: 14px;
+  max-width: 780px;
+  margin: 0 auto 100px;
+}
+.main .container .main-info {
+  display: block;
+  color: #000;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.clients {
+  padding: 80px 0;
+  text-align: center;
+}
+.clients-desc {
+  font-size: 14px;
+  max-width: 840px;
+  margin: 0 auto 100px;
+}
+
+@media (max-width: 1102px) {
+  .main {
+    padding: 50px 0;
+  }
+  .main .container .main-desc {
+    font-size: 14px;
+    margin: 0 auto 80px;
+  }
+
+  .clients {
+    padding: 50px 0;
+  }
+  .clients-desc {
+    margin: 0 auto 80px;
+  }
+}
+@media (max-width: 864px) {
+  .main .container .main-desc {
+    font-size: 14px;
+    margin: 0 auto 60px;
+  }
+  .main .container .main-info {
+    font-size: 13px;
+  }
+
+  .clients-desc {
+    margin: 0 auto 60px;
+  }
+  .clients-img {
+    max-width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .main .container .main-desc {
+    font-size: 14px;
+    margin: 0 auto 60px;
+  }
+  .main .container .main-info {
+    font-size: 13px;
+  }
+
+  .clients-desc {
+    margin: 0 auto 60px;
+  }
+  .clients-img {
+    max-width: 80%;
+  }
+}
+@media (max-width: 550px) {
+  .min-card {
+    display: none;
+  }
+
+  .main .container .main-desc {
+    font-size: 12px;
+    margin: 0 auto 0;
+  }
+
+  .clients-desc {
+    margin: 0 auto 60px;
+    font-size: 12px;
+  }
+  .clients-img {
+    max-width: 80%;
+  }
+}

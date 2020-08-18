@@ -1,0 +1,102 @@
+.header {
+  background: #000;
+}
+
+.contact {
+  padding: 60px 0 80px;
+}
+.contact-title, .contact-desc {
+  text-align: center;
+}
+.contact-desc {
+  font-size: 14px;
+  color: #606060;
+  max-width: 750px;
+  margin: 0 auto 60px;
+}
+.contact .form-title, .contact .map-title {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+.contact .form-desc, .contact .map-desc {
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 25px;
+}
+.contact .form {
+  display: flex;
+  flex-direction: column;
+}
+.contact .form .input {
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  padding: 15px 0 15px 10px;
+  background-color: #edf1f2;
+}
+.contact .form .input:focus {
+  border: 1px solid #2980b9;
+}
+.contact .form-message {
+  min-height: 150px;
+  height: 250px;
+  max-height: 250px;
+}
+.contact .form-btn {
+  cursor: pointer;
+  max-width: 230px;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 12px 90px;
+  border: 1px solid transparent;
+  background-color: #2980b9;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.contact .form-btn:hover {
+  background-color: #ffffff;
+  color: #2980b9;
+  border: 1px solid #2980b9;
+}
+.contact .form-btn:active {
+  transform: scale(0.95);
+}
+.contact .address {
+  display: block;
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 6px;
+}
+.contact .map {
+  width: 100%;
+  min-height: 242px;
+  border: none;
+  background: #edf1f2;
+}
+
+@media (max-width: 768px) {
+  .header-wrapper {
+    background: #e0e4e5;
+  }
+
+  .contact {
+    padding: 60px 0 60px;
+  }
+  .contact .form-title, .contact .map-title {
+    font-size: 18px;
+  }
+  .contact .form-desc, .contact .map-desc {
+    font-size: 13px;
+  }
+  .contact .form-section {
+    margin-top: 50px;
+  }
+  .contact .form {
+    margin-bottom: 0;
+  }
+  .contact .form .input {
+    font-size: inherit;
+  }
+  .contact .form-btn {
+    font-size: 13px;
+  }
+}

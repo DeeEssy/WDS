@@ -1,0 +1,72 @@
+.header {
+  background: #000;
+}
+
+.services {
+  text-align: center;
+  padding: 60px 0;
+}
+.services-desc {
+  font-size: 14px;
+  max-width: 750px;
+  margin: 0 auto 50px;
+}
+.services .myCard {
+  display: flex;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.services .myCard__img {
+  display: flex;
+  max-width: 100%;
+  min-width: 35px;
+  max-height: 35px;
+  margin: 5px 15px 0 0;
+}
+.services .myCard-info__title {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: #000;
+}
+.services .myCard-info__desc {
+  color: #606060;
+  font-size: 14px;
+  margin: 5px 0;
+}
+.services .myCard-info__link {
+  color: #606060;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+@media (max-width: 889px) {
+  .services-desc {
+    font-size: 14px;
+    max-width: 750px;
+    margin: 0 auto 50px;
+    padding: 0 10px;
+  }
+  .services .myCard {
+    margin-bottom: 40px;
+  }
+  .services .myCard-info__title {
+    font-size: 18px;
+  }
+  .services .myCard-info__desc {
+    font-size: 13px;
+    margin: 5px 0;
+  }
+  .services .myCard-info__link {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .header-wrapper {
+    background: #e0e4e5;
+  }
+}
+@media (max-width: 643px) {
+  .services-desc {
+    font-size: 13px;
+  }
+}

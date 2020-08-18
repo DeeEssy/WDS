@@ -1,0 +1,80 @@
+.header {
+  background: #000;
+}
+
+.blog {
+  padding: 60px 0 100px;
+}
+.blog-title {
+  text-align: center;
+}
+.blog-desc {
+  text-align: center;
+  font-size: 14px;
+  color: #606060;
+  max-width: 860px;
+  margin: 0 auto 60px;
+  padding: 0 10px;
+}
+.blog .card {
+  position: relative;
+  border: none;
+  margin-bottom: 30px;
+  min-height: 400px;
+}
+.blog .card-img {
+  max-width: 100%;
+  height: 100%;
+  max-height: 240px;
+  object-fit: cover;
+}
+.blog .card-title {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  margin: 15px 0;
+}
+.blog .card-desc {
+  color: #606060;
+  font-size: 14px;
+  margin: 0 0 30px;
+  max-height: 90px;
+  overflow: auto;
+}
+.blog .card-link {
+  position: absolute;
+  color: #606060;
+  font-size: 14px;
+  margin: 15px 0 0;
+  text-decoration: underline;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .header-wrapper {
+    background: #e0e4e5;
+  }
+
+  .blog {
+    padding: 60px 0 60px;
+  }
+  .blog-desc {
+    font-size: 13px;
+    margin: 0 auto 40px;
+  }
+  .blog .card {
+    min-height: 350px;
+  }
+  .blog .card-title {
+    font-size: 17px;
+    margin: 10px 0;
+  }
+  .blog .card-desc {
+    font-size: 12px;
+  }
+  .blog .card-link {
+    font-size: 13px;
+    margin: 10px 0 0;
+  }
+}

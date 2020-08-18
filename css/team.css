@@ -1,0 +1,49 @@
+.header {
+  background: #000;
+}
+
+.team {
+  padding: 60px 0 50px;
+  text-align: center;
+}
+.team-desc {
+  font-size: 14px;
+  color: #606060;
+  max-width: 760px;
+  margin: 0 auto 60px;
+}
+.team .card {
+  margin-bottom: 35px;
+  border: none;
+}
+.team .card-img {
+  max-width: 100%;
+  min-height: 300px;
+  height: 100%;
+  object-fit: cover;
+}
+.team .card-name {
+  font-size: 16px;
+  color: #000000;
+  margin: 20px 0 0;
+}
+.team .card-desc {
+  font-size: 12px;
+  color: #606060;
+  margin: 20px auto;
+  max-width: 80%;
+}
+.team .card-social__link {
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .header-wrapper {
+    background: #e0e4e5;
+  }
+
+  .team-desc {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+}

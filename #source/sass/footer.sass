@@ -1,0 +1,42 @@
+.page
+    min-height: 100vh
+    display: flex
+    flex-direction: column
+.footer
+    background-color: #000
+    padding: 15px 0
+    margin-top: auto
+    &-wrapper
+        display: flex
+        align-content: center
+        justify-content: space-between
+        max-width: 1400px
+        margin: 0 auto
+        padding: 0 20px
+        .social
+            display: flex
+            align-content: center
+            &-link
+                margin: auto
+                padding: 0 7px
+        .copy
+            max-width: 260px
+            color: #666666
+            font-size: 12px
+            margin: 0
+@media (max-width: 768px)
+    .footer
+        padding: 10px 0
+        &-wrapper
+            .social
+                &-link
+                    padding: 0 5px
+            .copy
+                font-size: 10px
+                max-width: 220px
+@media (max-width: 550px)
+    .footer
+        &-wrapper
+            .copy
+                font-size: 8px
+                max-width: 171px
